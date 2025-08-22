@@ -23,7 +23,7 @@ const Header = () => {
             {/* Top Row: Logo and Nav */}
             <div className="flex items-center justify-between w-full md:w-auto mb-2 md:mb-0">
                 <Link href="/" className="text-2xl font-bold text-purple-700">
-                    BookShelf
+                    Ebook Masters
                 </Link>
                 <nav className="flex gap-6 text-gray-600 md:hidden">
                     {links.map((link) => (
