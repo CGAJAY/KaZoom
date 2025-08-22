@@ -34,7 +34,7 @@ const Contact = () => {
                         <h3 className="text-xl font-semibold text-gray-800">
                             Phone
                         </h3>
-                        <p className="text-gray-700 mt-2">+254 712 800 431</p>
+                        <p className="text-gray-700 mt-2">+254 105026746</p>
                     </div>
 
                     <div className="bg-white rounded-2xl shadow-sm p-8 hover:shadow-lg transition">
@@ -43,8 +43,8 @@ const Contact = () => {
                             Address
                         </h3>
                         <p className="text-gray-700 mt-2">
-                            Kelvin Njue, 2nd House, <br />
-                            Muthatari Road, Embu, 60100, Kenya
+                            Kelvin Njue, Sea wave plaza, <br />
+                            Malindi Road, Mtwapa, 80109, Kenya
                         </p>
                     </div>
                 </div>
