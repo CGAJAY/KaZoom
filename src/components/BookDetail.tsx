@@ -11,13 +11,13 @@ const BookDetail = ({ book }: BookDetailProps) => {
         <section className="px-6 py-12 md:px-16 max-w-5xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 {/* Book Image */}
-                <div className="relative w-full aspect-[3/4] max-w-sm mx-auto lg:mx-0 rounded-lg overflow-hidden">
+                <div className="relative w-full aspect-[3/4] max-w-sm mx-auto lg:mx-0 rounded-lg overflow-hidden border-2 border-purple-400">
                     <Image
                         src={book.image}
                         alt={book.title}
                         fill
                         className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        sizes="(max-width: 768px) 100vw, 50vw "
                     />
                 </div>
 
