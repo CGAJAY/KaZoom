@@ -9,7 +9,7 @@ import type { Book } from "@/data/booksData"; // <-- Import Book type
 const Header = () => {
     const pathname = usePathname();
     const [query, setQuery] = useState("");
-    const [results, setResults] = useState<Book[] | null>(null); // <-- Fixed type
+    const [results, setResults] = useState<Book[] | null>(null);
 
     const links = [
         { href: "/about", label: "About" },
@@ -46,7 +46,7 @@ const Header = () => {
                 </Link>
             </div>
 
-            <div className="w-full md:w-1/2 relative">
+            <div className="w-full md:w-1/2 relative mb-3 md:mb-0">
                 <div className="flex w-full">
                     <input
                         type="text"
@@ -90,7 +90,8 @@ const Header = () => {
                 )}
             </div>
 
-            <nav className="hidden md:flex gap-6 text-gray-600">
+            {/* Navigation - now always visible, stacked on small screens */}
+            <nav className="flex justify-center  md:flex-row gap-4 md:gap-6 text-gray-600">
                 {links.map((link) => (
                     <Link
                         key={link.href}

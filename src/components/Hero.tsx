@@ -17,7 +17,7 @@ const Hero = () => {
                 Business / Health & Beauty / History / Novel
             </p>
             <Link
-                href="/shop"
+                href="/books"
                 className="inline-block mt-6 bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition">
                 Explore More
             </Link>
