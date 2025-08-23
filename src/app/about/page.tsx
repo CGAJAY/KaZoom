@@ -1,6 +1,5 @@
 import { Hero } from "@/components/about/Hero";
 import { MissionVision } from "@/components/about/MissionVission";
-import { Team } from "@/components/about/Team";
 
 export const metadata = {
     title: "About Us - E-books Gurus",
@@ -13,7 +12,6 @@ export default function About() {
         <div>
             <Hero />
             <MissionVision />
-            <Team />
         </div>
     );
 }

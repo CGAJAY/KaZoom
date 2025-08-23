@@ -32,8 +32,8 @@ const Footer = () => {
                     <h4 className="font-bold mb-2">Contact</h4>
                     <ul className="space-y-1">
                         <li>
-                            <a href="mailto:gengacamba@gmail.com">
-                                gengacamba@gmail.com
+                            <a href="mailto:joycembizi79@gmail.com">
+                                joycembizi79@gmail.com
                             </a>
                         </li>
                         <li>

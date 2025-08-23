@@ -2,32 +2,25 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight } from "lucide-react";
 import { allBooks } from "@/data/booksData";
 
-const Categories = () => {
-    // Extract unique categories from allBooks
+const CategoriesPage = () => {
+    // Extract all unique categories from books
     const uniqueCategories = Array.from(
         new Set(allBooks.map((book) => book.category))
-    ).slice(0, 6); // Limit to first six categories
+    );
 
     // Map each category to one representative book's image
     const categoryImages = uniqueCategories.reduce((acc, category) => {
         const book = allBooks.find((b) => b.category === category);
-        acc[category] = book?.image ?? "/categories/default.jpeg"; // Fallback if no image found
+        acc[category] = book?.image ?? "/categories/default.jpeg"; // fallback image
         return acc;
     }, {} as Record<string, string>);
 
     return (
-        <section className="px-6 py-12 md:px-16 max-w-7xl mx-auto">
-            <div className="mb-6 flex items-center justify-between">
-                <Link
-                    href="/categories"
-                    className="flex items-center gap-2 text-2xl font-bold text-gray-900 text-purple-400 hover:text-purple-600 transition">
-                    <span>View All Categories</span>
-                    <ChevronRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />
-                </Link>
-            </div>
+        <main className="px-6 py-12 md:px-16 max-w-7xl mx-auto">
+            <h1 className="text-3xl font-bold mb-8">All Categories</h1>
+
             <div
                 className="
                 grid 
@@ -71,8 +64,8 @@ const Categories = () => {
                     </Link>
                 ))}
             </div>
-        </section>
+        </main>
     );
 };
 
-export { Categories };
+export default CategoriesPage;

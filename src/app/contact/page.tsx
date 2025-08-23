@@ -25,7 +25,7 @@ const Contact = () => {
                             Email
                         </h3>
                         <p className="text-gray-700 mt-2">
-                            gengacamba@gmail.com
+                            joycembizi79@gmail.com
                         </p>
                     </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
                             Address
                         </h3>
                         <p className="text-gray-700 mt-2">
-                            Kelvin Njue, Sea wave plaza, <br />
+                            Joyce Mbizi, Sea wave plaza, <br />
                             Malindi Road, Mtwapa, 80109, Kenya
                         </p>
                     </div>
