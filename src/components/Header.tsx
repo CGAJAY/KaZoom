@@ -19,8 +19,8 @@ const Header = () => {
 
     const isActive = (href: string) =>
         pathname === href
-            ? "font-bold text-purple-700 underline underline-offset-4 decoration-purple-700"
-            : "hover:text-purple-700";
+            ? "font-bold text-blue-700 underline underline-offset-4 decoration-blue-700"
+            : "hover:text-blue-700";
 
     const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value.toLowerCase();
@@ -41,8 +41,8 @@ const Header = () => {
     return (
         <header className="relative w-full bg-white shadow-md p-4 flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="flex items-center justify-between w-full md:w-auto mb-2 md:mb-0">
-                <Link href="/" className="text-2xl font-bold text-purple-700">
-                    Ebook Masters
+                <Link href="/" className="text-3xl font-bold text-blue-400">
+                    Ka<span className="text-blue-800">Zoom</span>
                 </Link>
             </div>
 
@@ -53,9 +53,9 @@ const Header = () => {
                         value={query}
                         onChange={handleSearch}
                         placeholder="Search books, authors, novels"
-                        className="flex-1 p-2 focus:outline-none border border-purple-300 rounded-2xl focus:border-purple-500"
+                        className="flex-1 p-2 focus:outline-none border border-blue-300 rounded-2xl focus:border-blue-500"
                     />
-                    <button className="bg-purple-100 text-black px-4 border border-purple-300 rounded-full ml-2 hover:bg-purple-500 hover:text-white">
+                    <button className="bg-blue-100 text-black px-4 border border-blue-300 rounded-full ml-2 hover:bg-blue-500 hover:text-white">
                         <Search className="w-4 h-4" />
                     </button>
                 </div>
@@ -67,7 +67,7 @@ const Header = () => {
                                 <p>No book found.</p>
                                 <Link
                                     href="mailto:gengacamba@gmail.com?subject=Request%20for%20Book"
-                                    className="text-purple-700 underline">
+                                    className="text-blue-700 underline">
                                     Contact us to request this book
                                 </Link>
                             </div>
@@ -76,7 +76,7 @@ const Header = () => {
                                 <Link
                                     key={book.id}
                                     href={`/books/${book.id}`}
-                                    className="block px-4 py-2 hover:bg-purple-50">
+                                    className="block px-4 py-2 hover:bg-blue-50">
                                     <p className="font-semibold">
                                         {book.title}
                                     </p>

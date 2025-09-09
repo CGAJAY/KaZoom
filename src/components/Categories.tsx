@@ -23,7 +23,7 @@ const Categories = () => {
             <div className="mb-6 flex items-center justify-between">
                 <Link
                     href="/categories"
-                    className="flex items-center gap-2 text-2xl font-bold text-gray-900 text-purple-400 hover:text-purple-600 transition">
+                    className="flex items-center gap-2 text-2xl font-bold  text-blue-400 hover:text-blue-600 transition">
                     <span>View All Categories</span>
                     <ChevronRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />
                 </Link>
@@ -55,7 +55,7 @@ const Categories = () => {
                                 ring-gray-200 
                                 overflow-hidden 
                                 transition 
-                                group-hover:ring-purple-400
+                                group-hover:ring-blue-400
                             ">
                             <Image
                                 src={categoryImages[category]}

@@ -12,7 +12,7 @@ const AllBooks = () => {
                 {allBooks.map(({ id, title, author, image }) => (
                     <div
                         key={id}
-                        className="bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-4 flex flex-col items-center text-center hover:ring-purple-400 transition">
+                        className="bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-4 flex flex-col items-center text-center hover:ring-blue-400 transition">
                         <div className="h-40 w-28 md:h-44 md:w-32 mb-3 overflow-hidden rounded-lg">
                             <Image
                                 src={image}
@@ -28,7 +28,7 @@ const AllBooks = () => {
                         <p className="text-xs text-gray-500">{author}</p>
                         <Link
                             href={`/books/${id}`}
-                            className="mt-3 inline-block bg-purple-500 text-white text-xs md:text-sm px-3 py-1 rounded-lg hover:bg-purple-600 transition">
+                            className="mt-3 inline-block bg-blue-500 text-white text-xs md:text-sm px-3 py-1 rounded-lg hover:bg-blue-600 transition">
                             View Details
                         </Link>
                     </div>
