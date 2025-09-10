@@ -209,4 +209,204 @@ export const allBooks: Book[] = [
             "Percy discovers he is the son of Poseidon and must recover Zeus’s stolen lightning bolt.",
         downloadLink: "#",
     },
+    {
+        id: 21,
+        title: "Anne of Green Gables",
+        author: "L.M. Montgomery",
+        category: "Classic",
+        image: "/anne-green-gables.jpeg",
+        description:
+            "Follow Anne Shirley, the imaginative orphan who brings joy and adventure to Green Gables.",
+        downloadLink: "#",
+    },
+    {
+        id: 22,
+        title: "James and the Giant Peach",
+        author: "Roald Dahl",
+        category: "Fantasy",
+        image: "/giant-peach.jpeg",
+        description:
+            "A young boy escapes his troubles on a giant magical peach with insect friends.",
+        downloadLink: "#",
+    },
+    {
+        id: 23,
+        title: "Stuart Little",
+        author: "E.B. White",
+        category: "Adventure",
+        image: "/stuart-little.jpeg",
+        description:
+            "A small mouse with a big heart navigates life in New York City with courage and kindness.",
+        downloadLink: "#",
+    },
+    {
+        id: 24,
+        title: "The Secret Garden",
+        author: "Frances Hodgson Burnett",
+        category: "Classic",
+        image: "/secret-garden.jpeg",
+        description:
+            "Mary Lennox discovers a hidden, magical garden that transforms her and her friends’ lives.",
+        downloadLink: "#",
+    },
+    {
+        id: 25,
+        title: "Bridge to Terabithia",
+        author: "Katherine Paterson",
+        category: "Middle Grade",
+        image: "/bridge-terabithia.jpeg",
+        description:
+            "Two friends create a magical kingdom that teaches them about friendship and loss.",
+        downloadLink: "#",
+    },
+    {
+        id: 26,
+        title: "Island of the Blue Dolphins",
+        author: "Scott O’Dell",
+        category: "Adventure",
+        image: "/blue-dolphins.jpeg",
+        description:
+            "The story of Karana, a young girl who survives alone on an island with courage and resilience.",
+        downloadLink: "#",
+    },
+    {
+        id: 27,
+        title: "The Borrowers",
+        author: "Mary Norton",
+        category: "Fantasy",
+        image: "/borrowers.jpeg",
+        description:
+            "Tiny people living under the floorboards borrow items from humans to survive.",
+        downloadLink: "#",
+    },
+    {
+        id: 28,
+        title: "Because of Winn-Dixie",
+        author: "Kate DiCamillo",
+        category: "Contemporary",
+        image: "/winn-dixie.jpeg",
+        description:
+            "A lonely girl finds friendship and healing through a stray dog named Winn-Dixie.",
+        downloadLink: "#",
+    },
+    {
+        id: 29,
+        title: "The Tale of Despereaux",
+        author: "Kate DiCamillo",
+        category: "Fantasy",
+        image: "/despereaux.jpeg",
+        description:
+            "A brave little mouse sets out on a noble quest to save a princess.",
+        downloadLink: "#",
+    },
+    {
+        id: 30,
+        title: "How to Train Your Dragon",
+        author: "Cressida Cowell",
+        category: "Fantasy",
+        image: "/train-dragon.jpeg",
+        description:
+            "Follow Hiccup Horrendous Haddock III as he learns to tame dragons in this epic series.",
+        downloadLink: "#",
+    },
+    {
+        id: 31,
+        title: "The Little Prince",
+        author: "Antoine de Saint-Exupéry",
+        category: "Classic",
+        image: "/little-prince.jpeg",
+        description:
+            "A poetic tale of a young prince who explores planets and learns about love and loss.",
+        downloadLink: "#",
+    },
+    {
+        id: 32,
+        title: "Pippi Longstocking",
+        author: "Astrid Lindgren",
+        category: "Humor",
+        image: "/pippi.jpeg",
+        description:
+            "The adventures of the fearless and eccentric Pippi who lives life her own way.",
+        downloadLink: "#",
+    },
+    {
+        id: 33,
+        title: "The Polar Express",
+        author: "Chris Van Allsburg",
+        category: "Holiday",
+        image: "/polar-express.jpeg",
+        description:
+            "A magical Christmas train ride to the North Pole reminds us of the spirit of belief.",
+        downloadLink: "#",
+    },
+    {
+        id: 34,
+        title: "Mr. Popper’s Penguins",
+        author: "Richard Atwater",
+        category: "Comedy",
+        image: "/poppers-penguins.jpeg",
+        description:
+            "A house painter’s life turns upside down when he inherits a flock of penguins.",
+        downloadLink: "#",
+    },
+    {
+        id: 35,
+        title: "Ramona the Pest",
+        author: "Beverly Cleary",
+        category: "Contemporary",
+        image: "/ramona-pest.jpeg",
+        description:
+            "Ramona Quimby’s mischief-filled adventures capture the ups and downs of childhood.",
+        downloadLink: "#",
+    },
+    {
+        id: 36,
+        title: "The Boxcar Children",
+        author: "Gertrude Chandler Warner",
+        category: "Mystery",
+        image: "/boxcar-children.jpeg",
+        description:
+            "Four orphaned siblings create a home for themselves in an abandoned boxcar.",
+        downloadLink: "#",
+    },
+    {
+        id: 37,
+        title: "Ella Enchanted",
+        author: "Gail Carson Levine",
+        category: "Fantasy",
+        image: "/ella-enchanted.jpeg",
+        description:
+            "Ella, cursed with obedience, sets out on a magical journey to break the spell.",
+        downloadLink: "#",
+    },
+    {
+        id: 38,
+        title: "A Wrinkle in Time",
+        author: "Madeleine L’Engle",
+        category: "Science Fiction",
+        image: "/wrinkle-time.jpeg",
+        description:
+            "Meg and her friends travel through space and time to rescue her missing father.",
+        downloadLink: "#",
+    },
+    {
+        id: 39,
+        title: "Holes",
+        author: "Louis Sachar",
+        category: "Mystery",
+        image: "/holes.jpeg",
+        description:
+            "Stanley Yelnats is sent to a camp where digging holes uncovers buried secrets and family curses.",
+        downloadLink: "#",
+    },
+    {
+        id: 40,
+        title: "The BFG",
+        author: "Roald Dahl",
+        category: "Fantasy",
+        image: "/bfg.jpeg",
+        description:
+            "Sophie befriends a Big Friendly Giant who catches dreams and battles meaner giants.",
+        downloadLink: "#",
+    },
 ];

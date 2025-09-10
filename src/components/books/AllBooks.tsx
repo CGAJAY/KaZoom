@@ -8,12 +8,12 @@ const AllBooks = () => {
     return (
         <section className="px-6 py-12 md:px-16">
             <h3 className="text-2xl font-bold mb-6">All Books</h3>
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-6">
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,2fr))] gap-6">
                 {allBooks.map(({ id, title, author, image }) => (
                     <div
                         key={id}
                         className="bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-4 flex flex-col items-center text-center hover:ring-blue-400 transition">
-                        <div className="h-40 w-28 md:h-44 md:w-32 mb-3 overflow-hidden rounded-lg">
+                        <div className="h-40 w-48 md:h-44 md:w-48 mb-3 overflow-hidden rounded-lg">
                             <Image
                                 src={image}
                                 alt={title}
