@@ -12,7 +12,7 @@ const FeaturedBooks = () => {
             <h3 className="flex items-center gap-2 text-2xl font-bold  text-blue-400 hover:text-blue-600 transition mb-6">
                 Featured Books
             </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
                 {featuredBooks.map(({ id, title, author, image }) => (
                     <div
                         key={id}
