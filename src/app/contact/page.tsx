@@ -9,7 +9,10 @@ const Contact = () => {
                 {/* Heading */}
                 <div>
                     <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-                        Get in Touch with KaZoom
+                        Get in Touch with{" "}
+                        <span className=" font-bold text-blue-400">
+                            Ka<span className="text-blue-800">Zoom</span>
+                        </span>
                     </h1>
                     <p className="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">
                         Have a question or need help with our kids’ eBooks?

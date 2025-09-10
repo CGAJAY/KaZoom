@@ -6,7 +6,11 @@ const Hero = () => {
             <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
                 <div className="flex-1 text-center md:text-left space-y-6">
                     <h1 className="text-3xl md:text-5xl font-extrabold leading-tight text-gray-900">
-                        Welcome to KaZoom: A World of Kids’ Imagination
+                        Welcome to{" "}
+                        <span className=" font-bold text-blue-400">
+                            Ka<span className="text-blue-800">Zoom</span>
+                        </span>
+                        {": "}A World of Kids’ Imagination
                     </h1>
                     <p className="text-lg text-gray-700 leading-relaxed">
                         KaZoom brings stories, learning, and fun together.
