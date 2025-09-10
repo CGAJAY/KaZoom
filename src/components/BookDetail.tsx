@@ -29,7 +29,7 @@ const BookDetail = ({ book }: BookDetailProps) => {
                         {book.description ?? "No description available."}
                     </p>
                     <Link
-                        href={`mailto:gengacamba@gmail.com?subject=Requesting "${book.title}"&body=Hello, I would like to request a copy of "${book.title}".`}
+                        href={`mailto:matthewhiatt30@outlook.com?subject=Requesting "${book.title}"&body=Hello, I would like to request a copy of "${book.title}".`}
                         className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition text-center w-fit">
                         Request this Book
                     </Link>
