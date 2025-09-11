@@ -18,6 +18,26 @@ export const metadata: Metadata = {
     title: "KaZoom - Kids' Ebook Store",
     description:
         "A delightful collection of ebooks for children, featuring interactive stories and educational content.",
+    icons: {
+        icon: "/favicon.ico",
+    },
+    openGraph: {
+        title: "KaZoom - Kids' Ebook Store",
+        description:
+            "A delightful collection of ebooks for children, featuring interactive stories and educational content.",
+        url: "https://kazoom.ink",
+        siteName: "KaZoom",
+        images: [
+            {
+                url: "https://kazoom.ink/kids.jpg",
+                width: 1200,
+                height: 630,
+                alt: "KaZoom",
+            },
+        ],
+        locale: "en_US",
+        type: "website",
+    },
 };
 
 export default function RootLayout({
