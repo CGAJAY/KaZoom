@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Ebook Masters",
-    description: "Your one-stop solution for all your ebook needs",
+    title: "KaaZoom - Kids' Ebook Store",
+    description:
+        "A delightful collection of ebooks for children, featuring interactive stories and educational content.",
 };
 
 export default function RootLayout({
