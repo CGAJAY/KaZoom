@@ -78,8 +78,8 @@ const Contact = () => {
                             Address
                         </h3>
                         <p className="text-gray-700 mt-2">
-                            2121 Terra Cotta Street, <br />
-                            Squaw Lake, MN 56681, USA
+                            1201 N KENNEDY DRIVE, <br />
+                            PONTIAC, IL 61764, USA
                         </p>
                     </div>
                 </div>
