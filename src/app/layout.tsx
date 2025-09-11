@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "KaaZoom - Kids' Ebook Store",
+    title: "KaZoom - Kids' Ebook Store",
     description:
         "A delightful collection of ebooks for children, featuring interactive stories and educational content.",
 };
