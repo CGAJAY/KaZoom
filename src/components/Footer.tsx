@@ -61,8 +61,8 @@ const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            2121 Terra Cotta Street, <br />
-                            Squaw Lake, MN 56681, USA
+                            1201 N KENNEDY DRIVE, <br />
+                            PONTIAC, IL 61764, USA
                         </li>
                     </ul>
                 </div>
