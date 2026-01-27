@@ -5,22 +5,50 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <section className="bg-[#e6f7ff] p-8 md:p-16 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
-                Books That Spark Young Imaginations!
-            </h2>
-            <p className="text-xl md:text-2xl font-semibold text-blue-700">
-                A magical world of kids&apos; eBooks — fun stories, smart
-                learning, and endless adventures — all in one place!
-            </p>
-            <p className="mt-4 max-w-2xl mx-auto text-gray-600">
-                Kids Books / Stories / Learning / Adventures
-            </p>
-            <Link
-                href="/books"
-                className="inline-block mt-6 bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
-                Explore More
-            </Link>
+        <section className="relative overflow-hidden bg-[#fbfbf7] px-6 py-16 md:py-24">
+            {/* subtle background glow */}
+            <div className="absolute -top-24 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-emerald-200/40 blur-3xl" />
+
+            <div className="relative mx-auto max-w-5xl text-center">
+                {/* Badge */}
+                <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1 text-sm font-medium text-emerald-700">
+                    ✨ Stories Kids Love
+                </div>
+
+                {/* Heading */}
+                <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
+                    Where Young Minds{" "}
+                    <span className="text-emerald-700">Discover Magic</span>{" "}
+                    Through Books
+                </h1>
+
+                {/* Subtext */}
+                <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-600 md:text-xl">
+                    Fun stories, smart learning, and exciting adventures — all
+                    in one safe and delightful digital library built just for
+                    kids.
+                </p>
+
+                {/* Tags */}
+                <p className="mt-4 text-sm font-medium text-slate-500">
+                    Stories • Learning • Imagination • Growth
+                </p>
+
+                {/* CTA buttons */}
+                <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                    <Link
+                        href="/books"
+                        className="rounded-2xl bg-emerald-600 px-8 py-3 text-sm font-semibold text-white shadow-md shadow-emerald-600/20 transition hover:-translate-y-0.5 hover:bg-emerald-700">
+                        Explore Books
+                    </Link>
+
+                    <Link
+                        href="/categories"
+                        className="rounded-2xl border border-slate-300 bg-white px-8 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-100">
+                        Browse Categories
+                    </Link>
+                </div>
+            </div>
         </section>
     );
 };

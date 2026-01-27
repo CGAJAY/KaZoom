@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className="bg-[#f8f6fc] min-h-screen text-gray-800">
             <Hero />
-            <Categories />
+            {/* <Categories /> */}
             <FeaturedBooks />
         </div>
     );
