@@ -30,7 +30,7 @@ const Header = () => {
             const filtered = allBooks.filter(
                 (book) =>
                     book.title.toLowerCase().includes(value) ||
-                    book.author.toLowerCase().includes(value)
+                    book.author.toLowerCase().includes(value),
             );
             setResults(filtered.length > 0 ? filtered : []);
         } else {
@@ -43,6 +43,7 @@ const Header = () => {
             <div className="flex items-center justify-between w-full md:w-auto mb-2 md:mb-0">
                 <Link href="/" className="text-3xl font-bold text-blue-400">
                     Ka<span className="text-blue-800">Zoom</span>
+                    Dev
                 </Link>
             </div>
 
