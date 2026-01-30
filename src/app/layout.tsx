@@ -15,24 +15,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "KaZoom - Kids' Ebook Store",
+    title: "Shelfpack - Where young minds explore",
     description:
         "A delightful collection of ebooks for children, featuring interactive stories and educational content.",
     icons: {
         icon: "/favicon.ico",
     },
     openGraph: {
-        title: "KaZoom - Kids' Ebook Store",
+        title: "Shelfpack - Where young minds explore",
         description:
             "A delightful collection of ebooks for children, featuring interactive stories and educational content.",
-        url: "https://kazoom.ink",
-        siteName: "KaZoom",
+        url: "https://shelfpack.space",
+        siteName: "Shelfpack",
         images: [
             {
-                url: "https://kazoom.ink/kids.jpg",
+                url: "https://shelfpack.space/kids.jpg",
                 width: 1200,
                 height: 630,
-                alt: "KaZoom",
+                alt: "Shelfpack",
             },
         ],
         locale: "en_US",
