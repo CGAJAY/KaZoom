@@ -61,7 +61,7 @@ const Footer = () => {
                             <a
                                 href="mailto:matthewhiatt30@outlook.com"
                                 className="hover:text-emerald-400">
-                                matthewhiatt30@outlook.com
+                                laynales@gmail.com
                             </a>
                         </li>
                         <li>
@@ -72,8 +72,8 @@ const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            1201 N KENNEDY DRIVE, <br />
-                            PONTIAC, IL 61764, USA
+                            12524 GAKERE RD AMANI, <br />
+                            COURT HSE NO B70
                         </li>
                     </ul>
                 </div>

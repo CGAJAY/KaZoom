@@ -30,7 +30,7 @@ const Contact = () => {
                             Email
                         </h3>
                         <p className="text-slate-600 mt-2">
-                            gengacamba@gmail.com
+                            laynales@gmail.com
                         </p>
                     </div>
 
@@ -41,21 +41,20 @@ const Contact = () => {
                         </h3>
                         <p className="text-slate-600 mt-2">+254 712 800 431</p>
                     </div>
-
                     <div className="bg-white rounded-2xl shadow-sm p-8 hover:shadow-lg transition">
                         <MapPin className="w-10 h-10 mx-auto text-emerald-600 mb-4" />
                         <h3 className="text-xl font-semibold text-slate-900">
                             Address
                         </h3>
                         <p className="text-slate-600 mt-2">
-                            Kelvin Njue 2nd House, <br />
-                            Muthatari Road, Embu, 60100, Kenya
+                            12524 GAKERE RD AMANI, <br />
+                            COURT HSE NO B70
                         </p>
                     </div>
                 </div>
 
                 {/* Contact Row 2 */}
-                <div className="grid md:grid-cols-3 gap-8">
+                {/* <div className="grid md:grid-cols-3 gap-8">
                     <div className="bg-white rounded-2xl shadow-sm p-8 hover:shadow-lg transition">
                         <Mail className="w-10 h-10 mx-auto text-emerald-600 mb-4" />
                         <h3 className="text-xl font-semibold text-slate-900">
@@ -84,7 +83,7 @@ const Contact = () => {
                             PONTIAC, IL 61764, USA
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );
