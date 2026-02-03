@@ -39,7 +39,7 @@ const Contact = () => {
                         <h3 className="text-xl font-semibold text-slate-900">
                             Phone
                         </h3>
-                        <p className="text-slate-600 mt-2">+254 712 800 431</p>
+                        <p className="text-slate-600 mt-2">+254738204988</p>
                     </div>
                     <div className="bg-white rounded-2xl shadow-sm p-8 hover:shadow-lg transition">
                         <MapPin className="w-10 h-10 mx-auto text-emerald-600 mb-4" />
